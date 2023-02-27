@@ -1,0 +1,39 @@
+{
+    "topHeadlines":"Top Headlines",
+    "categories":"Categories",
+    "searchAnything":"Search anything here",
+    "category": "{selectPlaceholder, select, business{BUSINESS} entertainment{ENTERTAINMENT} general{GENERAL} health{HEALTH} science{SCIENCE} sports{SPORTS} technology{TECHNOLOGY} other{OTHER} }",
+    "@category": {
+        "description": "Category types",
+        "placeholders": {
+            "selectPlaceholder": {
+                "type": "String"
+            }
+        }
+    },
+    "news":"News",
+    "select":"Select the type of search",
+    "date": "{date}",
+        "@date": {
+         "description": "A message with a date parameter",
+         "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "yMd"
+            }
+        }
+     },
+    "goTop":"Go to top",
+    "sortBy": "{selectPlaceholder, select, publishedAt{Most Recent} relevancy{Relevancy} popularity{Popularity} other{NA} }",
+        "@sortBy": {
+            "description": "The order to sort the articles in",
+            "placeholders": {
+                "selectPlaceholder": {
+                    "type": "String"
+            }
+        }
+    },
+    "search":"Search",
+    "error":"Error try later",
+    "noResults":"No results found"   
+}

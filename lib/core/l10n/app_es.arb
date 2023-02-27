@@ -1,0 +1,39 @@
+{
+"topHeadlines":"Noticias Principales",
+"categories":"Categorias",
+"searchAnything":"Busca cualquier cosa aquí",
+"category":"{selectPlaceholder, select, business{NEGOCIOS} entertainment{ENTRETENIMIENTO} general{GENERAL} health{SALUD} science{CIENCIA} sports{DEPORTES} technology{TECNOLOGIA} other{OTRO} }",
+"@category": {
+        "description": "Category types",
+        "placeholders": {
+            "selectPlaceholder": {
+                "type": "String"
+            }
+        }
+    },
+"news":"Noticias",
+"select":"Selecciona el tipo de busqueda",
+"date": "{date}",
+    "@date": {
+      "description": "A message with a date parameter",
+      "placeholders": {
+        "date": {
+          "type": "DateTime",
+          "format": "yMd"
+        }
+      }
+    },
+"goTop":"Ir al principio",
+"sortBy": "{selectPlaceholder, select, publishedAt{Recientes} relevancy{Relevancia} popularity{Popularidad} other{NA} }",
+    "@sortBy": {
+        "description": "The order to sort the articles in",
+        "placeholders": {
+            "selectPlaceholder": {
+                "type": "String"
+            }
+        }
+    },
+"search":"Buscar",
+"error":"Error intenta más tarde",
+"noResults":"No se encontraron resultados"   
+}
